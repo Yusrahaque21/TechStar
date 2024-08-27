@@ -1,0 +1,32 @@
+@import "colors";
+
+.services {
+  width: 100%; /* Adjust width as needed */
+  margin: 0 auto; /* Centers the carousel */
+  padding: 0;
+  background-color: $third; /* Adds the background color using the $third variable */
+
+  .carousel .slide {
+      background: none; /* Removes any default background */
+      text-align: center; /* Centers text inside the slide */
+  }
+  
+  .carousel .slide img {
+      width: 50%; /* Adjust this value to make the image smaller or larger */
+      height: auto; /* Keeps the aspect ratio intact */
+      margin: 0 auto; /* Centers the image within the slide */
+      border-radius: 10px; /* Optional: Adds rounded corners to the image */
+  }
+  
+  .carousel .legend {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    color: #fff; /* White text color for contrast */
+    padding: 10px ; 
+                   
+    border-radius: 5px; /* Slightly round the legend corners */
+    font-size: 1.2rem; /* Adjust font size */
+    bottom: 10px; /* Positioning of the legend */
+  }
+}
+
+  
